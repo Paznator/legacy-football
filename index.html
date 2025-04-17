@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legacy Football - Own Your Football Club | NFT Fantasy Football Game</title>
+  <meta name="description" content="Legacy Football - the only free-to-play NFT Fantasy Football game. Build your club, upgrade infrastructures, and compete in tournaments to earn rewards.">
+  <meta name="keywords" content="NFT, fantasy football, Serie A, blockchain gaming, football NFT, beta testing, football manager">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <h1>Legacy Football</h1>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="hero-section">
+    <div class="president-container">
+      <img src="images/President.png" alt="Legacy Football President" class="hero-image">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="beta-tag">BETA COMING SOON</span>
+      <h1>Legacy Football</h1>
+      <h2>Own your Football Club</h2>
+      <p>The only free-to-play NFT Fantasy Football. Upgrade infrastructures to boost your player's performance, compete in tournaments, and earn money to build your Legacy.</p>
+      
+      <div class="countdown">
+        <h3>Beta Testing Starts In:</h3>
+        <div class="countdown-timer">
+          <div class="countdown-item">
+            <div class="countdown-number" id="days">14</div>
+            <div class="countdown-label">Days</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-number" id="hours">22</div>
+            <div class="countdown-label">Hours</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-number" id="minutes">36</div>
+            <div class="countdown-label">Minutes</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-number" id="seconds">54</div>
+            <div class="countdown-label">Seconds</div>
+          </div>
+        </div>
+      </div>
+      
+      <a href="#signup" class="signup-button">Register for Beta Access</a>
+    </div>
+  </section>
+
+  <section class="beta-features">
+    <h2>Beta Test Exclusive Features</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <h3>Build Your Club</h3>
+        <p>Collect and upgrade NFT infrastructure that boost your player's performance based on their weekend's game.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-trophy"></i>
+        </div>
+        <h3>Compete in Tournaments</h3>
+        <p>Test weekly tournaments with different themes and provide valuable feedback.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-coins"></i>
+        </div>
+        <h3>Discover the Economy</h3>
+        <p>Experience our marketplace and trading system before the official launch.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-cogs"></i>
+        </div>
+        <h3>Shape the Game</h3>
+        <p>Help us refine gameplay mechanics with your feedback and suggestions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="beta-rewards">
+    <h2>Exclusive Beta Tester Rewards</h2>
+    <div class="rewards-container">
+      <div class="reward-item">
+        <div class="reward-icon">
+          <i class="fas fa-gem"></i>
+        </div>
+        <div class="reward-info">
+          <h3>Exclusive Founder's NFT</h3>
+          <p>All beta testers will receive a limited edition Founder's NFT that will never be available again.</p>
+        </div>
+      </div>
+      
+      <!-- San Siro NFT Example -->
+      <div class="nft-example">
+        <h3>Example: Limited Edition San Siro Stadium NFT</h3>
+        <div class="nft-card">
+          <img src="images/sansironft.png" alt="San Siro Stadium NFT" class="nft-image" />
+          <div class="nft-card-details">
+            <h4>San Siro Stadium</h4>
+            <p>Legendary home of AC Milan and Inter Milan</p>
+            <span class="nft-rarity">Tier: Legendary</span>
+          </div>
+        </div>
+        <p class="nft-description">Beta testers will receive exclusive stadium NFTs similar to this San Siro example.</p>
+      </div>
+      
+      <div class="reward-item">
+        <div class="reward-icon">
+          <i class="fas fa-gift"></i>
+        </div>
+        <div class="reward-info">
+          <h3>Free Player Pack</h3>
+          <p>Start your collection with a free pack of 5 player NFTs at official launch.</p>
+        </div>
+      </div>
+      <div class="reward-item">
+        <div class="reward-icon">
+          <i class="fas fa-ticket-alt"></i>
+        </div>
+        <div class="reward-info">
+          <h3>Early Tournament Access</h3>
+          <p>Get priority access to the first official tournaments when we launch.</p>
+        </div>
+      </div>
+      <div class="reward-item">
+        <div class="reward-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="reward-info">
+          <h3>Name in the Credits</h3>
+          <p>Your name will be featured in our "Founding Members" section on our website.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="signup-section" id="signup">
+    <h2>Join the Beta Test Program</h2>
+    <p>Limited spots available! Sign up now to secure your place in the Legacy Football beta test and receive exclusive rewards when we launch.</p>
+    <div class="signup-form">
+      <form id="beta-signup-form" action="https://formspree.io/f/xqapvzpv" method="POST">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="wallet-address">Wallet Address (Optional)</label>
+          <input type="text" id="wallet-address" name="wallet-address" placeholder="Your MetaMask wallet address">
+        </div>
+        <div class="form-group">
+          <label for="experience">Fantasy Football Experience</label>
+          <select id="experience" name="experience" required>
+            <option value="">Select your experience level</option>
+            <option value="none">None</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+            <option value="expert">Expert</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="nft-experience">NFT Experience</label>
+          <select id="nft-experience" name="nft-experience" required>
+            <option value="">Select your experience level</option>
+            <option value="none">None</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+            <option value="expert">Expert</option>
+          </select>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="terms" name="terms" required>
+          <label for="terms">I agree to the Terms and Conditions</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="newsletter" name="newsletter">
+          <label for="newsletter">Sign me up for the newsletter</label>
+        </div>
+        <button type="submit" class="signup-button">Register for Beta Access</button>
+        <p class="form-note">* Limited spots available. First come, first served.</p>
+      </form>
+    </div>
+  </section>
+
+  <section class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-container">
+      <div class="faq-item">
+        <div class="faq-question">
+          When does the beta testing begin?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          Beta testing is scheduled to begin on July 1, 2025. All registered beta testers will receive an email with instructions on how to access the beta version.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          How many beta testers will be accepted?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          We're limiting the beta test to 500 participants to ensure we can properly collect and implement feedback. Sign up early to secure your spot!
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          Do I need to own cryptocurrency to participate?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          For the beta test, no. We'll provide you with test tokens to use during the beta period. However, for the full release, you'll need a MetaMask wallet and some cryptocurrency for transactions.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          Will my progress carry over to the full release?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          Yes, all progress made during the beta test will carry over to the full release. Your player NFTs, team progress, and any rewards earned will be available in the official game.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          How can I provide feedback during the beta?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          We'll have a dedicated Discord channel for beta testers where you can report bugs, suggest improvements, and discuss your experience with the development team and other testers.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          How long will the beta test last?
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          The beta test is planned to run for approximately 4 weeks, but we may extend it based on the feedback we receive and any improvements we want to implement.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h2>Legacy Football</h2>
+        <p>The Ultimate NFT Fantasy Football Experience</p>
+      </div>
+      <div class="footer-social">
+        <h3>Follow Our Progress</h3>
+        <div class="social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-telegram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Legacy Football. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
